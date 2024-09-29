@@ -27,14 +27,14 @@ body > * {
   text-decoration-style: wavy;
 }
 
-samp { font: inherit }
-strong { font: inherit }
-pre { font: inherit }
+:focus {
+  outline: thick double;
+}
+
 h1 { font-size: 2.618em; margin: 0 }
 h2 { font-size: 1.618em; font-weight: unset }
 li { margin-block: 0 1ex }
 
-.myspace { display:table }
 .album { list-style:decimal-leading-zero }
 .belong { list-style:tamil }
 .floppy { list-style:disc }
@@ -42,9 +42,3 @@ li { margin-block: 0 1ex }
 .circle { list-style:circle }
 .duende { list-style:kannada }
 .aikido { list-style:hiragana }
-.scream { text-transform:uppercase }
-.pajama { padding:2rem }
-.weregild { overflow-wrap:anywhere }
-.macaw { margin:auto }
-:hover { text-decoration-style:double }
-:focus { outline: thick dotted }
